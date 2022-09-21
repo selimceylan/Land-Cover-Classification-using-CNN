@@ -22,4 +22,9 @@ The CNN model consists of 2 convolutions and these convolutions are followed by 
 
 ![image](https://user-images.githubusercontent.com/86148100/191497588-9e9ff769-e7bf-4b2d-b28e-f08d8d6242d0.png)
 
-
+## Related article
+> title={Introducing Eurosat: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification},\
+  authors={Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth},\
+  year={2018},\
+  journal={IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium},\
+  howpublished={\url{https://ieeexplore.ieee.org/document/8519248 }}

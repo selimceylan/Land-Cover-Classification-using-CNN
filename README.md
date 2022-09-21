@@ -1,5 +1,5 @@
 # Land Cover Classification using CNN
-This repo consists of custom Convolutional Neural Network to classify the land cover. After the hyperparameter optimization, over %90 accuracy obtained.
+This repo consists of custom Convolutional Neural Network to classify land covers. Over %90 accuracy obtained after the hyperparameter optimization.
 
 ## Dataset
 The dataset which is used in this project is EuroSAT. EuroSAT is based on Sentinel-2 satellite images and consists of 27,000 labeled images with a total of 10 different classes. The patches measure 64x64 pixels. 
@@ -9,6 +9,10 @@ The dataset which is used in this project is EuroSAT. EuroSAT is based on Sentin
 
 ## Model 
 The CNN model consists of 2 convolutions and these convolutions are followed by batch normalization, ReLu and max pooling respectively. First convolution output has 32 channels and the second convolution output has 64 channels. Both of the max pooling kernels are 2x2.
+
+Loss function: Cross entropy\
+Optimization: Adam\
+Scheduler: ExponentialLR
 
 ## Hyperparamters
 - Batch size which is number of images that are used for calculating gradients at each step is equal to 128.

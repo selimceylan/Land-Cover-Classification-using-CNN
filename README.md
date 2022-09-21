@@ -1,4 +1,4 @@
-# Land-Cover-Classification-using-CNN
+# Land Cover Classification using CNN
 This repo consists of custom Convolutional Neural Network to classify the land cover. After the hyperparameter optimization, over %90 accuracy obtained.
 
 ## Dataset
